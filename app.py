@@ -2,7 +2,7 @@ from flask import Flask, jsonify, render_template_string
 
 app = Flask(__name__)
 
-TITLE = "Задания выфполнено"
+TITLE = "AisCAR"
 
 CARS = [
     {"id": 1, "brand": "Toyota", "model": "Camry", "year": 2023, "price_kzt": 17500000, "city": "Астана"},
